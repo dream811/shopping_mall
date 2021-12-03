@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+/* font */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face{
+  font-family: 'NanumGothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/admin/fonts/NanumGothic.eot'); 
+  src: local('ŉ'), url('/admin/fonts/NanumGothic.woff') format('woff'), url('/admin/fonts/NanumGothic.ttf') format('truetype'); 
+}
+
+@font-face{
+  font-family: 'NanumGothic';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/admin/fonts/NanumGothicBold.eot');     
+  src: local('ŉ'), url('/admin/fonts/NanumGothicBold.woff') format('woff'), url('/admin/fonts/NanumGothicBold.ttf') format('truetype'); 
+}
+
+/* reset css */
+body{margin:0; padding:0; background-color:#fff;}
+html{overflow-y:scroll;}
+body, table, th, td, input, select, textarea, div, button{font-family:"나눔고딕",'NanumGothic','Nanum Gothic','맑은 고딕','Malgun Gothic',"돋움",'Dotum',Helvetica; font-size:12px; color:#444; line-height:1.6;}
+h1, h2, h3, h4, h5, h6, ol, ul, li, dl, dt, dd, form, fieldset, input, textarea, hr, p{margin:0; padding:0;}
+img, fieldset{border:0 none;}
+img{vertical-align:middle;}
+input{vertical-align:middle;}
+ol, ul, li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+button{border:0 none; padding:0; margin:0; background:transparent; *overflow:visible; cursor:pointer;}
+button::-moz-focus-inner{border:0; padding:0;}
+label{cursor:pointer;}
+
+a:link{color:#444; text-decoration:none;}
+a:visited{color:#444; text-decoration:none;}
+a:hover{color:#1f7ee8; text-decoration:none;}
+a:active{color:#444; text-decoration:none;}
+
+/* 스크롤 설정 */
+body{
+	scrollbar-base-color:#fff;
+	scrollbar-track-color:#f9f9f9;
+	scrollbar-arrow-color:#aaa;
+	scrollbar-face-color:#ddd;
+	scrollbar-shadow-color:#ccc;
+}
+
+b, strong{font-weight:600;}
+
+
+/* placeholder */
+input::-webkit-input-placeholder {color:#aaa;}
+input::-ms-input-placeholder {color:#aaa;}
+input:-moz-placeholder {color:#aaa;}
+input::-moz-placeholder {color:#aaa;}
+
+.clearfix {_height:1%;} /* IE6 및 하위 버전 브라우저 대응 Hack */
+*:first-child+html .clearfix {height:1%;} /* IE7 대응 Hack */
+.clearfix:after {content:" "; display:block; clear:both; height:0; visibility:hidden;} /* 표준계열 브라우저에 대응하는 float 해제용 가상 엘리먼트의 생성 */
+
+/* 컨텐츠 드래그 컬러효과 */
+::-moz-selection{background:rgba(63,158,220,0.3);}
+::selection{background:rgba(63,158,220,0.3);}
+img::selection{background:none}

@@ -1,0 +1,3 @@
+211.44.188.13 - [21/Apr/2020:14:45:15 +0900] /admin/product/prd_save.php: realimg = add_imst1.png: 허용되지 않은 확장자 파일 업로드
+211.44.188.13 - [21/Apr/2020:14:46:04 +0900] /admin/product/prd_save.php: realimg = 메인화면.png: 허용되지 않은 확장자 파일 업로드
+211.44.188.13 - [21/Apr/2020:14:46:14 +0900] /admin/product/prd_save.php: realimg = 사이트맵.png: 허용되지 않은 확장자 파일 업로드

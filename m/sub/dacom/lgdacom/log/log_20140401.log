@@ -1,0 +1,98 @@
+2014-04-01 01:40:10 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] []
+2014-04-01 01:40:10 [DEBUG] [] Config [server_id] = [01]
+2014-04-01 01:40:10 [DEBUG] [] Config [timeout] = [60]
+2014-04-01 01:40:10 [DEBUG] [] Config [log_level] = [4]
+2014-04-01 01:40:10 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-01 01:40:10 [DEBUG] [] Config [verify_host] = [1]
+2014-04-01 01:40:10 [DEBUG] [] Config [report_error] = [1]
+2014-04-01 01:40:10 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-01 01:40:10 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-01 01:40:10 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-01 01:40:10 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:40:10 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:40:10 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-01 01:40:10 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-01 01:40:10 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-01 01:40:10 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-01 01:42:53 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] []
+2014-04-01 01:42:53 [DEBUG] [] Config [server_id] = [01]
+2014-04-01 01:42:53 [DEBUG] [] Config [timeout] = [60]
+2014-04-01 01:42:53 [DEBUG] [] Config [log_level] = [4]
+2014-04-01 01:42:53 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-01 01:42:53 [DEBUG] [] Config [verify_host] = [1]
+2014-04-01 01:42:53 [DEBUG] [] Config [report_error] = [1]
+2014-04-01 01:42:53 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-01 01:42:53 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-01 01:42:53 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-01 01:42:53 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:42:53 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:42:53 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-01 01:42:53 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-01 01:42:53 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-01 01:42:53 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-01 01:46:03 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] [test]
+2014-04-01 01:46:03 [DEBUG] [] Config [server_id] = [01]
+2014-04-01 01:46:03 [DEBUG] [] Config [timeout] = [60]
+2014-04-01 01:46:03 [DEBUG] [] Config [log_level] = [4]
+2014-04-01 01:46:03 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-01 01:46:03 [DEBUG] [] Config [verify_host] = [1]
+2014-04-01 01:46:03 [DEBUG] [] Config [report_error] = [1]
+2014-04-01 01:46:03 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-01 01:46:03 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-01 01:46:03 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-01 01:46:03 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:46:03 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-01 01:46:03 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-01 01:46:03 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-01 01:46:03 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_TXID] = [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_AUTHCODE] = [2bb8764fb75d4123b5780d9b3c63f90bfce539e4]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_MID] = [tanywiz1]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_TXNAME] = [PaymentByKey]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_PAYKEY] = [201404010146030ACC088FBA4882AD10B0E7EFAE2D1717CE50F48D]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_AMOUNTCHECKYN] = [Y]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Post [LGD_AMOUNT] = [55000]
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] post_string = LGD_TXID=tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3&LGD_AUTHCODE=2bb8764fb75d4123b5780d9b3c63f90bfce539e4&LGD_MID=tanywiz1&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=201404010146030ACC088FBA4882AD10B0E7EFAE2D1717CE50F48D&LGD_AMOUNTCHECKYN=Y&LGD_AMOUNT=55000
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"0000","LGD_RESPMSG":"Í≤∞Ï†úÏÑ±Í≥µ","LGD_RESPONSE":[{"LGD_BILLKEY":"","LGD_IFOS":"3A4S0S","LGD_MID":"tsmt_nbm2013","LGD_FINANCENAME":"SKT","LGD_DELIVERYINFO":"","LGD_BUYER":"ÍπÄÌù¨Î¥â","LGD_BUYERID":"","LGD_OID":"140401014253306","LGD_RECEIVERPHONE":"","LGD_2TR_FLAG":"Y","LGD_DEVICE":"SHV-E250S","LGD_TID":"tsmt_2014040101433560510","LGD_TIMESTAMP":"20140401014604","LGD_FINANCECODE":"011","LGD_BUYERPHONE":"","LGD_ESCROWYN":"N","LGD_PAYTYPE":"SC0060","LGD_AMOUNT":"55000","LGD_TELNO":"*******6008","LGD_BUYERSSN":"","LGD_RESPMSG":"Í≤∞Ï†úÏÑ±Í≥µ","LGD_HASHDATA_BILLKEY":"0e8fa838c1f47615893bb77f5684dfe2","LGD_PAYDATE":"20140401014604","LGD_PRODUCTINFO":"T2M2  ÏÜîÍ∏∞ ÏóÜÎäî ÏÉ§ÌîÑÌïú T-BACK Ïô∏1Í∞ú","LGD_PRODUCTCODE":"","LGD_HASHDATA":"f8264c9a441a5f2b20d75e5081a753e4","LGD_BUYERADDRESS":"","LGD_RECEIVER":"","LGD_RESPCODE":"0000","LGD_BUYEREMAIL":"khb820714@naver.com"}]}
+]
+2014-04-01 01:46:03 [INFO ] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response Code=[0000], Msg=[∞·¡¶º∫∞¯], Count=1
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BILLKEY, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_IFOS, 0) = 3A4S0S
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_MID, 0) = tsmt_nbm2013
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_FINANCENAME, 0) = SKT
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_DELIVERYINFO, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYER, 0) = ±Ë»Ò∫¿
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYERID, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_OID, 0) = 140401014253306
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_RECEIVERPHONE, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_2TR_FLAG, 0) = Y
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_DEVICE, 0) = SHV-E250S
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_TID, 0) = tsmt_2014040101433560510
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_TIMESTAMP, 0) = 20140401014604
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_FINANCECODE, 0) = 011
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYERPHONE, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_ESCROWYN, 0) = N
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_PAYTYPE, 0) = SC0060
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_AMOUNT, 0) = 55000
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_TELNO, 0) = *******6008
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYERSSN, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_RESPMSG, 0) = ∞·¡¶º∫∞¯
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_HASHDATA_BILLKEY, 0) = 0e8fa838c1f47615893bb77f5684dfe2
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_PAYDATE, 0) = 20140401014604
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_PRODUCTINFO, 0) = T2M2  º÷±‚ æ¯¥¬ ª˛«¡«— T-BACK ø‹1∞≥
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_PRODUCTCODE, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_HASHDATA, 0) = f8264c9a441a5f2b20d75e5081a753e4
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYERADDRESS, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_RECEIVER, 0) = 
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_RESPCODE, 0) = 0000
+2014-04-01 01:46:03 [DEBUG] [tanywiz1-01201404010146036bba7fcce31c61c85b7ac2ddc690f6e5723c90d3] Response (LGD_BUYEREMAIL, 0) = khb820714@naver.com

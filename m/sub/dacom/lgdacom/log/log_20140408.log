@@ -1,0 +1,174 @@
+2014-04-08 06:53:18 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] []
+2014-04-08 06:53:18 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 06:53:18 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 06:53:18 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 06:53:18 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 06:53:18 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 06:53:18 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 06:53:18 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 06:53:18 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 06:53:18 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 06:53:18 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 06:53:18 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 06:53:18 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 06:53:18 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 06:53:18 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 06:53:18 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-08 14:51:24 [INFO ] [] XPayClient initialize [/home1/demoshop/www/m/sub/dacom/lgdacom] []
+2014-04-08 14:51:24 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 14:51:24 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 14:51:24 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 14:51:24 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 14:51:24 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 14:51:24 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 14:51:24 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 14:51:24 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 14:51:24 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 14:51:24 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:51:24 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:51:24 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 14:51:24 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 14:51:24 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 14:51:24 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-08 14:52:01 [INFO ] [] XPayClient initialize [/home1/demoshop/www/m/sub/dacom/lgdacom] [test]
+2014-04-08 14:52:01 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 14:52:01 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 14:52:01 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 14:52:01 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 14:52:01 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 14:52:01 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 14:52:01 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 14:52:01 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 14:52:01 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 14:52:01 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:01 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:01 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 14:52:01 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 14:52:01 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_TXID] = [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_AUTHCODE] = [f4755c6286ff8dac97989ef306fb5c57719ed7d1]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_MID] = [tanywiz1]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_TXNAME] = [PaymentByKey]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_PAYKEY] = [20140408145205AD223FF52B36DA3445ACACFC71DB140978FDA8F4]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_AMOUNTCHECKYN] = [Y]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Post [LGD_AMOUNT] = [31700]
+2014-04-08 14:52:01 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] post_string = LGD_TXID=tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26&LGD_AUTHCODE=f4755c6286ff8dac97989ef306fb5c57719ed7d1&LGD_MID=tanywiz1&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=20140408145205AD223FF52B36DA3445ACACFC71DB140978FDA8F4&LGD_AMOUNTCHECKYN=Y&LGD_AMOUNT=31700
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"0000","LGD_RESPMSG":"03: ","LGD_RESPONSE":[{"LGD_IFOS":"276ICC","LGD_MID":"tsmt_nbm2013","LGD_FINANCENAME":"Í∏∞ÏóÖ","LGD_DELIVERYINFO":"","LGD_BUYER":"ÌÖåÏä§Ìä∏","LGD_BUYERID":"","LGD_OID":"140408145124332","LGD_RECEIVERPHONE":"","LGD_2TR_FLAG":"Y","LGD_DEVICE":"","LGD_TID":"tsmt_2014040814520658706","LGD_TIMESTAMP":"20140408145207","LGD_SAOWNER":"ÏóîÎπÑÏó†","LGD_FINANCECODE":"003","LGD_BUYERPHONE":"0103333333","LGD_ESCROWYN":"N","LGD_PAYTYPE":"SC0040","LGD_CASFLAG":"R","LGD_CASCAMOUNT":"0","LGD_CASTAMOUNT":"0","LGD_AMOUNT":"31700","LGD_BUYERSSN":".","LGD_RESPMSG":"03: ","LGD_PAYDATE":"20140408145207","LGD_PRODUCTINFO":"[Îâ¥Ìä∏Î°úÏßÄÎÇò]ÌçºÎ∞ç Î∞îÎîî Î™®Ïù¥Ïä§Ï∂∞ÎùºÏù¥Ï†Ä200ml+Î∞îÎîî Ïä¨Î¶¨Î®∏148ml","LGD_CASSEQNO":"000","LGD_PRODUCTCODE":"","LGD_HASHDATA":"b86dac170869dea414ab4f99e986bcc8","LGD_BUYERADDRESS":"","LGD_RECEIVER":"","LGD_RESPCODE":"0000","LGD_ACCOUNTNUM":"X06500537397304","LGD_PAYER":"ÌïúÏÑ§Ïó∞","LGD_BUYEREMAIL":"feel@anywiz.co.kr"}]}
+]
+2014-04-08 14:52:03 [INFO ] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response Code=[0000], Msg=[03: ], Count=1
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_IFOS, 0) = 276ICC
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_MID, 0) = tsmt_nbm2013
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_FINANCENAME, 0) = ±‚æ˜
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_DELIVERYINFO, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYER, 0) = ≈◊Ω∫∆Æ
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYERID, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_OID, 0) = 140408145124332
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_RECEIVERPHONE, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_2TR_FLAG, 0) = Y
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_DEVICE, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_TID, 0) = tsmt_2014040814520658706
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_TIMESTAMP, 0) = 20140408145207
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_SAOWNER, 0) = ø£∫Òø•
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_FINANCECODE, 0) = 003
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYERPHONE, 0) = 0103333333
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_ESCROWYN, 0) = N
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_PAYTYPE, 0) = SC0040
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_CASFLAG, 0) = R
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_CASCAMOUNT, 0) = 0
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_CASTAMOUNT, 0) = 0
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_AMOUNT, 0) = 31700
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYERSSN, 0) = .
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_RESPMSG, 0) = 03: 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_PAYDATE, 0) = 20140408145207
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_PRODUCTINFO, 0) = [¥∫∆Æ∑Œ¡ˆ≥™]∆€π÷ πŸµ ∏¿ÃΩ∫√Á∂Û¿Ã¿˙200ml+πŸµ ΩΩ∏Æ∏”148ml
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_CASSEQNO, 0) = 000
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_PRODUCTCODE, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_HASHDATA, 0) = b86dac170869dea414ab4f99e986bcc8
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYERADDRESS, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_RECEIVER, 0) = 
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_RESPCODE, 0) = 0000
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_ACCOUNTNUM, 0) = X06500537397304
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_PAYER, 0) = «—º≥ø¨
+2014-04-08 14:52:03 [DEBUG] [tanywiz1-01201404081452014e5f07e46742c949c0a02a3f1100fb4f5f684f26] Response (LGD_BUYEREMAIL, 0) = feel@anywiz.co.kr
+2014-04-08 14:52:14 [INFO ] [] XPayClient initialize [/home1/demoshop/www/m/sub/dacom/lgdacom] []
+2014-04-08 14:52:14 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 14:52:14 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 14:52:14 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 14:52:14 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 14:52:14 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 14:52:14 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 14:52:14 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 14:52:14 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 14:52:14 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 14:52:14 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:14 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:14 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 14:52:14 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 14:52:14 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 14:52:14 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-08 14:52:22 [INFO ] [] XPayClient initialize [/home1/demoshop/www/m/sub/dacom/lgdacom] []
+2014-04-08 14:52:22 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 14:52:22 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 14:52:22 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 14:52:22 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 14:52:22 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 14:52:22 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 14:52:22 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 14:52:22 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 14:52:22 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 14:52:22 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:22 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:22 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 14:52:22 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 14:52:22 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 14:52:22 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-04-08 14:52:25 [INFO ] [] XPayClient initialize [/home1/demoshop/www/m/sub/dacom/lgdacom] [test]
+2014-04-08 14:52:25 [DEBUG] [] Config [server_id] = [01]
+2014-04-08 14:52:25 [DEBUG] [] Config [timeout] = [60]
+2014-04-08 14:52:25 [DEBUG] [] Config [log_level] = [4]
+2014-04-08 14:52:25 [DEBUG] [] Config [verify_cert] = [1]
+2014-04-08 14:52:25 [DEBUG] [] Config [verify_host] = [1]
+2014-04-08 14:52:25 [DEBUG] [] Config [report_error] = [1]
+2014-04-08 14:52:25 [DEBUG] [] Config [output_UTF8] = [0]
+2014-04-08 14:52:25 [DEBUG] [] Config [auto_rollback] = [1]
+2014-04-08 14:52:25 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-04-08 14:52:25 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:25 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-04-08 14:52:25 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-04-08 14:52:25 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-04-08 14:52:25 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_TXID] = [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_AUTHCODE] = [79d48cd10be31b495e0bdc2a726de8f9b1f7c3c4]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_MID] = [tanywiz1]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_TXNAME] = [PaymentByKey]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_PAYKEY] = []
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_AMOUNTCHECKYN] = [Y]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Post [LGD_AMOUNT] = [0]
+2014-04-08 14:52:25 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] post_string = LGD_TXID=tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1&LGD_AUTHCODE=79d48cd10be31b495e0bdc2a726de8f9b1f7c3c4&LGD_MID=tanywiz1&LGD_TXNAME=PaymentByKey&LGD_PAYKEY=&LGD_AMOUNTCHECKYN=Y&LGD_AMOUNT=0
+2014-04-08 14:52:31 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"ÏöîÏ≤≠Ìïú LGD_PAYKEY Í∞Ä Ï°¥Ïû¨ÌïòÏßÄ ÏïäÏäµÎãàÎã§.","LGD_RESPONSE":[{"LGD_HASHDATA":"af1b111120cd308b254c0e2ab6aa3420","LGD_RESPCODE":"XC01","LGD_TIMESTAMP":"20140408145235","LGD_RESPMSG":"ÏöîÏ≤≠Ìïú LGD_PAYKEY Í∞Ä Ï°¥Ïû¨ÌïòÏßÄ ÏïäÏäµÎãàÎã§."}]}
+]
+2014-04-08 14:52:31 [INFO ] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Response Code=[XC01], Msg=[ø‰√ª«— LGD_PAYKEY ∞° ¡∏¿Á«œ¡ˆ æ Ω¿¥œ¥Ÿ.], Count=1
+2014-04-08 14:52:31 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Response (LGD_HASHDATA, 0) = af1b111120cd308b254c0e2ab6aa3420
+2014-04-08 14:52:31 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Response (LGD_RESPCODE, 0) = XC01
+2014-04-08 14:52:31 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Response (LGD_TIMESTAMP, 0) = 20140408145235
+2014-04-08 14:52:31 [DEBUG] [tanywiz1-012014040814522535db8eda00e5fdc020f55b75cf1ce6c7360301a1] Response (LGD_RESPMSG, 0) = ø‰√ª«— LGD_PAYKEY ∞° ¡∏¿Á«œ¡ˆ æ Ω¿¥œ¥Ÿ.

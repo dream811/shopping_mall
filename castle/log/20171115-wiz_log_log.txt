@@ -1,0 +1,4 @@
+211.60.125.166 - [15/Nov/2017:16:16:09 +0900] /admin/shop/shop_save.php: estimate_bigo = 1. (��)���θ���� �Ǹ��� ��ǰ�� A/S �Ⱓ�� 6���� �Դϴ�.\r\n2. �: TAG 공격 패턴 탐지
+211.60.125.166 - [15/Nov/2017:16:24:18 +0900] /admin/shop/shop_save.php: naver_key = &lt;meta name=\"naver-site-verification\" content=\"ebe51c8766f5f79: TAG 공격 패턴 탐지
+211.60.125.166 - [15/Nov/2017:16:30:36 +0900] /admin/shop/shop_save.php: naver_key = &lt;meta name=\"naver-site-verification\" content=\"ebe51c8766f5f79: TAG 공격 패턴 탐지
+211.60.125.166 - [15/Nov/2017:16:32:42 +0900] /admin/bbs/bbs_save.php: content = 쇼핑몰 오픈 준비중입니다.&lt;meta name=\"naver-site-verification\" : TAG 공격 패턴 탐지

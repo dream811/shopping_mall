@@ -1,0 +1,68 @@
+2014-10-31 07:19:08 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] []
+2014-10-31 07:19:08 [DEBUG] [] Config [server_id] = [01]
+2014-10-31 07:19:08 [DEBUG] [] Config [timeout] = [60]
+2014-10-31 07:19:08 [DEBUG] [] Config [log_level] = [4]
+2014-10-31 07:19:08 [DEBUG] [] Config [verify_cert] = [1]
+2014-10-31 07:19:08 [DEBUG] [] Config [verify_host] = [1]
+2014-10-31 07:19:08 [DEBUG] [] Config [report_error] = [1]
+2014-10-31 07:19:08 [DEBUG] [] Config [output_UTF8] = [0]
+2014-10-31 07:19:08 [DEBUG] [] Config [auto_rollback] = [1]
+2014-10-31 07:19:08 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-10-31 07:19:08 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:08 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:08 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-10-31 07:19:08 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-10-31 07:19:08 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-10-31 07:19:08 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf
+2014-10-31 07:19:53 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] [service]
+2014-10-31 07:19:53 [DEBUG] [] Config [server_id] = [01]
+2014-10-31 07:19:53 [DEBUG] [] Config [timeout] = [60]
+2014-10-31 07:19:53 [DEBUG] [] Config [log_level] = [4]
+2014-10-31 07:19:53 [DEBUG] [] Config [verify_cert] = [1]
+2014-10-31 07:19:53 [DEBUG] [] Config [verify_host] = [1]
+2014-10-31 07:19:53 [DEBUG] [] Config [report_error] = [1]
+2014-10-31 07:19:53 [DEBUG] [] Config [output_UTF8] = [0]
+2014-10-31 07:19:53 [DEBUG] [] Config [auto_rollback] = [1]
+2014-10-31 07:19:53 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-10-31 07:19:53 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:53 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:53 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-10-31 07:19:53 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-10-31 07:19:53 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-10-31 07:19:53 [FATAL] [] Key for MID [alohasunny] does not exist in mall.conf
+2014-10-31 07:19:53 [DEBUG] [] Post [LGD_TXNAME] = [PaymentByKey]
+2014-10-31 07:19:53 [DEBUG] [] Post [LGD_PAYKEY] = [20141031071955BC88A895AF9821FD06AFD578A0E325C0FC7E45A9]
+2014-10-31 07:19:53 [DEBUG] [] Post [LGD_AMOUNTCHECKYN] = [Y]
+2014-10-31 07:19:53 [DEBUG] [] Post [LGD_AMOUNT] = [31000]
+2014-10-31 07:19:53 [DEBUG] [] post_string = LGD_TXNAME=PaymentByKey&LGD_PAYKEY=20141031071955BC88A895AF9821FD06AFD578A0E325C0FC7E45A9&LGD_AMOUNTCHECKYN=Y&LGD_AMOUNT=31000
+2014-10-31 07:19:53 [DEBUG] [] Result = [
+
+
+
+
+
+
+
+
+
+{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID í•„ë“œê°€ ëˆ„ë½ë˜ì—ˆìŠµë‹ˆë‹¤. Init_TX(LGD_MID)ë¥¼ í•´ì£¼ì‹œê¸° ë°”ëë‹ˆë‹¤. ë˜ëŠ” mall.conf ì— ìƒì í‚¤ê°€ ì…‹íŒ…ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤.","LGD_RESPONSE":[{"LGD_RESPCODE":"XC01","LGD_RESPMSG":"LGD_MID í•„ë“œê°€ ëˆ„ë½ë˜ì—ˆìŠµë‹ˆë‹¤. Init_TX(LGD_MID)ë¥¼ í•´ì£¼ì‹œê¸° ë°”ëë‹ˆë‹¤. ë˜ëŠ” mall.conf ì— ìƒì í‚¤ê°€ ì…‹íŒ…ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤."}]}
+]
+2014-10-31 07:19:53 [INFO ] [] Response Code=[XC01], Msg=[LGD_MID ÇÊµå°¡ ´©¶ôµÇ¾ú½À´Ï´Ù. Init_TX(LGD_MID)¸¦ ÇØÁÖ½Ã±â ¹Ù¶ø´Ï´Ù. ¶Ç´Â mall.conf ¿¡ »óÁ¡Å°°¡ ¼ÂÆÃµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.], Count=1
+2014-10-31 07:19:53 [DEBUG] [] Response (LGD_RESPCODE, 0) = XC01
+2014-10-31 07:19:53 [DEBUG] [] Response (LGD_RESPMSG, 0) = LGD_MID ÇÊµå°¡ ´©¶ôµÇ¾ú½À´Ï´Ù. Init_TX(LGD_MID)¸¦ ÇØÁÖ½Ã±â ¹Ù¶ø´Ï´Ù. ¶Ç´Â mall.conf ¿¡ »óÁ¡Å°°¡ ¼ÂÆÃµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.
+2014-10-31 07:19:58 [INFO ] [] XPayClient initialize [/home1/topguy/www/m/sub/dacom/lgdacom] []
+2014-10-31 07:19:58 [DEBUG] [] Config [server_id] = [01]
+2014-10-31 07:19:58 [DEBUG] [] Config [timeout] = [60]
+2014-10-31 07:19:58 [DEBUG] [] Config [log_level] = [4]
+2014-10-31 07:19:58 [DEBUG] [] Config [verify_cert] = [1]
+2014-10-31 07:19:58 [DEBUG] [] Config [verify_host] = [1]
+2014-10-31 07:19:58 [DEBUG] [] Config [report_error] = [1]
+2014-10-31 07:19:58 [DEBUG] [] Config [output_UTF8] = [0]
+2014-10-31 07:19:58 [DEBUG] [] Config [auto_rollback] = [1]
+2014-10-31 07:19:58 [DEBUG] [] Config [log_dir] = [/home1/wizshop/www/m/sub/dacom/lgdacom/log]
+2014-10-31 07:19:58 [DEBUG] [] Config [tanywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:58 [DEBUG] [] Config [anywiz1] = [a38233b74d7a95ab34798e679bb4ce1e]
+2014-10-31 07:19:58 [DEBUG] [] Config [url] = [https://xpayclient.lgdacom.net/xpay/Gateway.do]
+2014-10-31 07:19:58 [DEBUG] [] Config [test_url] = [https://xpayclient.lgdacom.net:7443/xpay/Gateway.do]
+2014-10-31 07:19:58 [DEBUG] [] Config [aux_url] = [http://xpayclient.lgdacom.net:7080/xpay/Gateway.do]
+2014-10-31 07:19:58 [FATAL] [] Key for MID [tsmt_nbm2013] does not exist in mall.conf

@@ -1,0 +1,1 @@
+211.60.125.166 - [21/Nov/2017:10:56:52 +0900] /admin/member/member_excel_up.php: upfile = member_sample.xls: 허용되지 않은 확장자 파일 업로드

@@ -1,0 +1,31 @@
+<?php
+include 'config.php';
+
+// 웹에디터 필드명
+if(!isset($edit_name))		$edit_name	= "content";
+if(!isset($edit_width))	$edit_width	= "100%";
+if(!isset($edit_height))	$edit_height= "300";
+?>
+<script type="text/javascript" src="<?=WEBEDIT_URL?>/js/service/HuskyEZCreator.js" charset="utf-8"></script>
+<textarea name="<?=$edit_name?>" id="<?=$edit_name?>" rows="10" cols="100" style="width:<?=$edit_width?>; height:<?=$edit_height?>px; display:none;"><?=$edit_content?></textarea>
+<script type="text/javascript">
+var <?=$edit_name?> = [];
+var sLang = "ko_KR";	// 언어 (ko_KR/ en_US/ ja_JP/ zh_CN/ zh_TW), default = ko_KR
+nhn.husky.EZCreator.createInIFrame({
+	oAppRef: <?=$edit_name?>,
+	elPlaceHolder: "<?=$edit_name?>",
+	sSkinURI: "<?=WEBEDIT_URL?>/SmartEditor2Skin.html",	
+	htParams : {
+		bUseToolbar : true,				// 툴바 사용 여부 (true:사용/ false:사용하지 않음)
+		bUseVerticalResizer : true,		// 입력창 크기 조절바 사용 여부 (true:사용/ false:사용하지 않음)
+		bUseModeChanger : true,			// 모드 탭(Editor | HTML | TEXT) 사용 여부 (true:사용/ false:사용하지 않음)
+		//bSkipXssFilter : true,		// client-side xss filter 무시 여부 (true:사용하지 않음 / 그외:사용)
+		I18N_LOCALE : sLang
+	}, //boolean
+	fCreator: "createSEditor2"
+});
+
+<?=$edit_name?>.outputBodyHTML = function(){
+	<?=$edit_name?>.getById["<?=$edit_name?>"].exec("UPDATE_CONTENTS_FIELD", []);
+}
+</script>

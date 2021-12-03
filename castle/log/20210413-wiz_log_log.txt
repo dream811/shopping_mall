@@ -1,0 +1,2 @@
+1.252.171.178 - [13/Apr/2021:05:34:23 +0900] /bbs/save.php: upfile1 = php-web-shell.php: 차단된 이름 파일 업로드
+1.252.171.178 - [13/Apr/2021:05:35:25 +0900] /bbs/save.php: upfile1 = php-web-shell.php: 차단된 이름 파일 업로드

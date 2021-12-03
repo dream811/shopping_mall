@@ -1,0 +1,3 @@
+82.165.83.158 - [21/Mar/2021:11:36:27 +0900] /shop/prd_list.php: grp = new999999.1 union select unhex(hex(version())) -- and 1=1: SQL_Injection 공격 패턴 탐지
+82.165.83.158 - [21/Mar/2021:11:36:28 +0900] /shop/prd_list.php: grp = new99999\' union select unhex(hex(version())) -- \'x\'=\'x: SQL_Injection 공격 패턴 탐지
+82.165.83.158 - [21/Mar/2021:11:36:28 +0900] /shop/prd_list.php: grp = new99999\" union select unhex(hex(version())) -- \"x\"=\"x: SQL_Injection 공격 패턴 탐지

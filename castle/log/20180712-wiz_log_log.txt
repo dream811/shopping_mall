@@ -1,0 +1,4 @@
+210.96.184.130 - [12/Jul/2018:14:16:28 +0900] /admin/webedit/imageUpload/upload.php: file = 20180712141633_ofmkuial.png: 허용되지 않은 확장자 파일 업로드
+210.96.184.130 - [12/Jul/2018:14:16:54 +0900] /admin/webedit/imageUpload/upload.php: file = 20180712141658_npliherc.png: 허용되지 않은 확장자 파일 업로드
+210.96.184.130 - [12/Jul/2018:14:18:51 +0900] /admin/webedit/imageUpload/upload.php: file = 20180712141855_sitbikly.png: 허용되지 않은 확장자 파일 업로드
+210.96.184.130 - [12/Jul/2018:14:19:41 +0900] /admin/webedit/imageUpload/upload.php: file = 20180712141946_dmeqxcuw.png: 허용되지 않은 확장자 파일 업로드

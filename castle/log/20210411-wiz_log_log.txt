@@ -1,0 +1,3 @@
+1.252.171.178 - [11/Apr/2021:02:09:44 +0900] /bbs/save.php: upfile1 = 1.jsp: 차단된 이름 파일 업로드
+1.252.171.178 - [11/Apr/2021:02:11:14 +0900] /bbs/save.php: upfile1 = BcelEvil.java: 허용되지 않은 확장자 파일 업로드
+1.252.171.178 - [11/Apr/2021:02:11:15 +0900] /bbs/save.php: upfile1 = BcelEvil.java: 허용되지 않은 확장자 파일 업로드
