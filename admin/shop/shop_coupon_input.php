@@ -140,7 +140,7 @@ if ($sub_mode == "update" && $idx) {
       <tr>
         <td height="25" class="t_name">쿠폰발급회원</td>
         <td class="t_value">
-          <button type="button" onclick="coupon_input('<?= $idx ?>', '<?= $prdcode ?>')">쿠폰발급</button><br /><br />
+          <button type="button" class="AW-btn" style="background-color:rgba(63,158,220,0.3); font-size:11px;" onclick="coupon_input('<?= $idx ?>', '<?= $prdcode ?>')">쿠폰발급</button><br /><br />
           <table width="100%" border="0" cellspacing="2" cellpadding="1">
             <tr>
               <td height="20" align="center" class="t_name">번호</td>

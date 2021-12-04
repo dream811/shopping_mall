@@ -174,13 +174,13 @@ if($mode == "insert"){
 	}
 
 	// 상품 옵션 - 가격/적립금/재고
-	for($ii = 0; $ii < count($tmp_opt[sellprice]); $ii++) {
+	for($ii = 0; $ii < count($tmp_opt['sellprice']); $ii++) {
 
-		if(empty($tmp_opt[sellprice][$ii])) $tmp_opt[sellprice][$ii] = 0;
-		if(empty($tmp_opt[reserve][$ii])) $tmp_opt[reserve][$ii] = 0;
-		if(empty($tmp_opt[stock][$ii])) $tmp_opt[stock][$ii] = 0;
+		if(empty($tmp_opt['sellprice'][$ii])) $tmp_opt['sellprice'][$ii] = 0;
+		if(empty($tmp_opt['reserve'][$ii])) $tmp_opt['reserve'][$ii] = 0;
+		if(empty($tmp_opt['stock'][$ii])) $tmp_opt['stock'][$ii] = 0;
 
-		$optvalue .= $tmp_opt[sellprice][$ii]."^".$tmp_opt[reserve][$ii]."^".$tmp_opt[stock][$ii]."^^";
+		$optvalue .= $tmp_opt['sellprice'][$ii]."^".$tmp_opt['reserve'][$ii]."^".$tmp_opt['stock'][$ii]."^^";
 	}
 
 	// 추가 옵션 1
@@ -244,8 +244,8 @@ if($mode == "insert"){
 	$sql = "update wiz_cprelation set catcode = '$catcode' where prdcode = '$prdcode' and idx = '$relidx'";
 	$result = mysqli_query($connect, $sql) or die(mysqli_error($connect));
 
-	complete("상품정보가 수정되었습니다.","prd_input.php?mode=update&prdcode=$prdcode&$param");
-
+	// complete("상품정보가 수정되었습니다.","prd_input.php?mode=update&prdcode=$prdcode&$param");
+	complete("상품이 입력되었습니다.", "prd_list.php");
 
 
 
@@ -722,4 +722,3 @@ if($mode == "insert"){
 	echo "<script>alert('변경되었습니다.'); opener.document.location.reload(); self.close(); </script>";
 
 }
-?>
