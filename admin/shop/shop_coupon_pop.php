@@ -10,7 +10,16 @@ if (!isset($searchkey)) $searchkey = 0;
 
 <head>
 	<title>:: 쿠폰발급 ::</title>
-	<link href="../style.css" rel="stylesheet" type="text/css">
+	<link href="/admin/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/admin/js/jquery-ui.css">
+	<script src="/js/lib.js"></script>
+	<script src="/js/calendar.js"></script>
+	<script src="/admin/js/jquery-1.10.2.js"></script>
+	<script src="/admin/js/jquery-ui.js"></script>
+	<script src="/admin/js/jquery.highchartTable.js"></script>
+	<script src="/admin/js/highcharts.js"></script>
+	<script src="/admin/js/jquery.bpopup.min.js"></script>
+	<script src="/admin/js/jquery.cookie.js"></script>
 	<script language="JavaScript" type="text/javascript">
 		<!--
 		// 체크박스 전체선택
@@ -206,10 +215,10 @@ if (!isset($searchkey)) $searchkey = 0;
 
 					<table width="100%" height="10" border="0" cellpadding="0" cellspacing="0" class="t_style">
 						<tr>
-							<td class="t_value" align="center">
-								<button type="button" onclick="allcouponUser()">검색회원발급</button>
-								<button type="button" onclick="couponUser()">발급</button>
-								<button type="button" onClick="self.close();">취소</button>
+							<td class="t_value AW-btn-wrap" align="center">
+								<button type="button" class="on" onclick="allcouponUser()">검색회원발급</button>
+								<button type="button" class="on" onclick="couponUser()">발급</button>
+								<button type="button" class="off" onClick="self.close();">취소</button>
 							</td>
 						</tr>
 					</table>

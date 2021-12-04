@@ -47,5 +47,3 @@ if($admin_info->passwd == md5($admin_pw)){
 }  else{
 	error("회원정보가 일치하지 않습니다.");
 }
-
-?>
