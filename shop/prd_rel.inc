@@ -3,13 +3,16 @@
 <ul class="prd_list clearfix">
 <?
 $no = 0;
-$rel_sql = "select wr.idx,wp.prdcode,wp.prdname,wp.prdimg_R,wp.sellprice,wp.strprice from wiz_prdrelation wr inner join wiz_product wp on wr.relcode = wp.prdcode inner join wiz_mall as wm on wp.mallid = wm.id where wr.prdcode = '$prdcode' and wp.showset != 'N' and wp.status = 'Y' and wm.status = 'Y'";
+$rel_sql = "select wr.idx,wp.prdcode,wp.prdname,wp.prdimg_R,wp.sellprice,wp.strprice,wp.conprice from wiz_prdrelation wr inner join wiz_product wp on wr.relcode = wp.prdcode inner join wiz_mall as wm on wp.mallid = wm.id where wr.prdcode = '$prdcode' and wp.showset != 'N' and wp.status = 'Y' and wm.status = 'Y'";
 $rel_result = mysqli_query($connect, $rel_sql);
+
+
 while($rel_row = mysqli_fetch_object($rel_result)){
 	if($no%5 == 0) echo "";
-
+	
 	if(!empty($rel_row->strprice)) $rel_row->sellprice = $rel_row->strprice;
 	else $rel_row->sellprice = number_format($rel_row->sellprice)."원";
+	if(!isset($coupon_img)) $coupon_img="";
 ?>
     <li>
     	<button type="button" class="wish_btn">관심상품 등록</button><!-- 클릭하면 관심상품 등록 얼럿과 함께 on 클래스 추가 / 등록된 상태에서 다시 클릭하면 관심상품 해제 얼럿과 함께 on 클래스 삭제 -->
