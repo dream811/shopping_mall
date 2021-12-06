@@ -6,7 +6,7 @@ include "../inc/shop_info.inc";
 //if($shop_info->start_page == "") $start_page = "http://".$_http_host."/admin/main/main.php";
 //else $start_page = "http://".$_http_host.$shop_info->start_page;
 $port = $_SERVER['SERVER_PORT'] ? ':'.$_SERVER['SERVER_PORT'] : '';
-$start_page = "http://".$_http_host.$port."/admin/main/main.php";
+$start_page = "http://".$_http_host."/admin/main/main.php";
 if($admin_id == "") error("아이디를 입력하세요");
 if($admin_pw == "") error("비밀번호를 입력하세요");
 
@@ -49,4 +49,3 @@ if($admin_info->passwd == $admin_pw){
 		error ("회원정보가 일치하지 않습니다.");
 	}
 }
-?>
