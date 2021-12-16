@@ -16,8 +16,8 @@ $admin_info = mysqli_fetch_object($result);
 //global $wiz_admin;
 //$wiz_admin = array();
 
-if($admin_info->passwd == $admin_pw){
-//if($admin_info->passwd == md5($admin_pw)){
+//if($admin_info->passwd == $admin_pw){
+if($admin_info->passwd == md5($admin_pw)){
 
 	//방문회수 증가
 	$sql = "update wiz_admin set last = now() where id='$admin_id'";

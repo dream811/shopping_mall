@@ -225,7 +225,7 @@ function viewCancel( idx ) {
              if(empty($next_month)) $next_month = date("m");
              if(empty($next_day)) $next_day = date("d");
 
-             for($ii=2004; $ii <= 2020; $ii++){
+             for($ii=2004; $ii <= date('Y'); $ii++){
                if($ii == $prev_year) echo "<option value=$ii selected>$ii";
                else echo "<option value=$ii>$ii";
              }
@@ -254,7 +254,7 @@ function viewCancel( idx ) {
             일 ~
             <select name="next_year" class="select2">
               <?
-             for($ii=2004; $ii <= 2020; $ii++){
+             for($ii=2004; $ii <= date('Y'); $ii++){
                if($ii == $next_year) echo "<option value=$ii selected>$ii";
                else echo "<option value=$ii>$ii";
              }
