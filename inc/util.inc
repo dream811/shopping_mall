@@ -1,7 +1,7 @@
 <?
 // prev, 스팸글 체크등 HTTP_HOST 체크 시 SSL 포트번호와 분리
-list($_http_host, $_http_port) = explode(":", $_SERVER['HTTP_HOST']);
-
+list($_http_host) = explode(":", $_SERVER['HTTP_HOST']);
+$_http_port="";
 $mobile_path = "m";
 
 function mobile_check() {

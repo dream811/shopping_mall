@@ -225,11 +225,11 @@ function reserveList(id,name){
 					if(!isset($next_month) || empty($next_month)) $next_month = date("n");
 					if(!isset($next_day) || empty($next_day)) $next_day = date("d");
 					
-					if(!isset($prev_year) || empty($prev_year)) $prev_year = date("Y");
+					if(!isset($prev_year) || empty($prev_year)) $prev_year = date("Y")-1;
 					if(!isset($prev_month) || empty($prev_month)) $prev_month = date("n");
 					if(!isset($prev_day) || empty($prev_day)) $prev_day = date("d");
 					
-					for($ii=2005; $ii <= date('Y'); $ii++){
+					for($ii=2005; $ii <= date('Y')-1; $ii++){
 					  if($ii == $prev_year) echo "<option value=$ii selected>$ii";
 					  else echo "<option value=$ii>$ii";
 					}

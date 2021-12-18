@@ -5,13 +5,13 @@
 <?
 if (!isset($prdcode)) $prdcode = "";
 if (!isset($idx)) $idx = "";
-if ($sub_mode == "update" && $idx) {
+if ($sub_mode == "update" && $idx !="") {
   $sql = "select * from wiz_coupon where idx = '$idx'";
   $result = mysqli_query($connect, $sql) or die(mysqli_error($connect));
   $coupon_info = mysqli_fetch_array($result);
   $coupon_link = '&lt;a href="/shop/coupon_down.php?eventidx=' . $idx . '"&gt;링크명&lt;/a&gt;';
   $add_sql = " and wc.eventidx='$idx'";
-} else if ($sub_mode == "update" && $prdcode) {
+} else if ($sub_mode == "update" && $prdcode !="") {
   $sql = "select prdcode, concat('[상품쿠폰]', prdname) as coupon_name, coupon_sdate, coupon_edate, coupon_dis, coupon_type, coupon_amount, coupon_limit from wiz_product where prdcode = '$prdcode'";
   $result = mysqli_query($connect, $sql) or die(mysqli_error($connect));
   $coupon_info = mysqli_fetch_array($result);
@@ -88,7 +88,7 @@ if ($sub_mode == "update" && $idx) {
     <tr>
       <td width="15%" class="t_name">쿠폰명</td>
       <td width="85%" class="t_value">
-        <? if ($prdcode) { ?>
+        <? if ($prdcode !="") { ?>
           <?= $coupon_info['coupon_name'] ?> <a href="../product/prd_input.php?mode=update&prdcode=<?= $prdcode ?>" target="_blank"><button type="button">상품정보에서 수정</button></a>
         <? } else { ?>
           <input name="coupon_name" value="<?= $coupon_info['coupon_name'] ?>" type="text" size="60" class="input">
@@ -151,7 +151,7 @@ if ($sub_mode == "update" && $idx) {
               <th align="center" class="t_name" width="10%">삭제</th>
             </tr>
             <?
-            $sql = "select wc.idx, wc.wdate, wc.coupon_use, wm.id, wm.name from wiz_mycoupon wc, wiz_member wm where wc.eventidx='$idx' and wc.memid = wm.id";
+            echo $sql = "select wc.idx, wc.wdate, wc.coupon_use, wm.id, wm.name from wiz_mycoupon wc, wiz_member wm where wc.eventidx='$idx' and wc.memid = wm.id";
             $result = mysqli_query($connect, $sql) or die(mysqli_error($connect));
             $total = mysqli_num_rows($result);
             while ($row = mysqli_fetch_object($result)) {
